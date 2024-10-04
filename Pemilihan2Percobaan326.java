@@ -12,7 +12,7 @@ public class Pemilihan2Percobaan326 {
         System.out.println("Masukkan kategori: ");
         kategori = input26.nextLine();
         System.out.println("Masukkan besar penghasilan: ");
-        penghasilan = input26.nextInt();
+        penghasilan = input26   .nextInt();
 
         if (kategori.equalsIgnoreCase("pekerja")) {
             if (penghasilan <= 2000000)
