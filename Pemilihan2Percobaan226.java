@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Pemilihan2Percobaan226 {
     public static void main(String[] args) {
         
-        final Scanner input = new Scanner(System.in);
+        final Scanner input26 = new Scanner(System.in);
 
 int pilihan_menu;
 String member;
@@ -16,10 +16,10 @@ double harga, diskon=0.10, total_bayar;
         System.out.println("3. Paket Bunding (ricebowl + Ice Tea)");
         System.out.println("-------------------------------------");
         System.out.println("masukkan ankga dari menu yang dipilih = ");
-        pilihan_menu = input.nextInt();
-        input.nextLine();
+        pilihan_menu = input26.nextInt();
+        input26.nextLine();
         System.out.println("Apakah punya member (y/n) ? = ");
-        member = input.nextLine();
+        member = input26.nextLine();
         System.out.println("-----------------------------------------");
 
         if (member.equalsIgnoreCase("y")) {
